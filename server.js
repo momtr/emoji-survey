@@ -23,7 +23,7 @@ app.get('/emojis', (req, res) => {
     }
     /** insert into DB */
     db.insertData('emojis', Date.now(), { emojis });
-    /** render response file */
+    /** response */
     res.send(JSON.stringify({
         status: 'success',
         message: 'saved emojis',

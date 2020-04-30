@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+}
+
+h1 {
+    font-family: 'Lalezar', cursive;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-size: 2em;
+}
+
+.headingWrapper {
+    text-align: center;
+    margin: 5% 0;
+}
+
+h2, h3 {
+    font-family: 'Lalezar', 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    border-bottom: 5px solid #fed766;
+    text-align: center;
+    display: inline;
+}
+
+.inputWrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+
+textarea {
+    width: 99.5%;
+    resize: none;
+    height: 20vh;
+    font-family: 'Lalezar', sans-serif;
+    font-size: 1.5em;
+    border-radius: 8px;
+    padding: 2%;
+    border: 5px solid #124ebe;
+}
+
+*:focus {
+    outline: none;
+}
+
+button {
+    width: 30%;
+    margin: 2.5% 35%;
+    padding: 1%;
+    font-size: 110%;
+    font-family: 'Lalezar', cursive;
+    font-weight: 600;
+    background-color: #fed766;
+    border: none;
+}
+
+#errorMessage {
+    color: red;
+    text-align: center;
+    margin: 2.5%;
+    font-size: 70%;
+}
+
+@media screen and (max-width: 700px) {
+    .inputWrapper {
+        width: 80%;
+        margin: 7.5%;
+    }
+}

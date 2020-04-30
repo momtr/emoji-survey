@@ -9,4 +9,4 @@ http://emoji-survey.herokuapp.com
 The server can be started with `npm start`.
 
 ## Data
-Data can be used for training association-rule mining models.
+Data can be used for training association-rule mining models. Type of data: unstructured, raw attributes
